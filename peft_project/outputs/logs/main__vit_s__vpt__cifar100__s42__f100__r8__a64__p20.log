@@ -1,0 +1,8 @@
+[RUN] method=vpt dataset=cifar100 classes=100 trainable=46,180 (0.213%) lr=0.005 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=1.8068  test_acc=84.59  best=84.59  (105s)
+  epoch 2/6  loss=1.3389  test_acc=86.79  best=86.79  (63s)
+  epoch 3/6  loss=1.2513  (no eval)  (66s)
+  epoch 4/6  loss=1.1885  test_acc=88.55  best=88.55  (68s)
+  epoch 5/6  loss=1.1375  test_acc=89.10  best=89.10  (67s)
+  epoch 6/6  loss=1.1123  test_acc=89.27  best=89.27  (68s)
+[DONE] vpt/cifar100  best_acc=89.27  trainable%=0.213  mem=3394MB  time=508s

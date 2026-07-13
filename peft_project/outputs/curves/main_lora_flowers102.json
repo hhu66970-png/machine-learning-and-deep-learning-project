@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "tag": "main",
+    "method": "lora",
+    "dataset": "flowers102",
+    "num_classes": 102,
+    "epochs": 30,
+    "batch_size": 64,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 373350,
+    "total_params": 86172006,
+    "pct_trainable": 0.4333,
+    "best_acc": 99.707,
+    "final_acc": 99.691,
+    "peak_mem_mb": 3825.9,
+    "train_time_s": 548.4,
+    "time_per_epoch_s": 18.3,
+    "throughput_img_s": 108.5,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 5.2266,
+      "test_acc": 44.219,
+      "epoch_time_s": 24.2
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.4363,
+      "test_acc": 99.219,
+      "epoch_time_s": 6.7
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9014,
+      "test_acc": 99.463,
+      "epoch_time_s": 6.6
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8473,
+      "test_acc": 99.593,
+      "epoch_time_s": 7.9
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8259,
+      "test_acc": 99.577,
+      "epoch_time_s": 7.5
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.8127,
+      "test_acc": 99.512,
+      "epoch_time_s": 7.4
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.8046,
+      "test_acc": 99.642,
+      "epoch_time_s": 7.1
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.7995,
+      "test_acc": 99.642,
+      "epoch_time_s": 6.9
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.7974,
+      "test_acc": 99.626,
+      "epoch_time_s": 6.8
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.795,
+      "test_acc": 99.626,
+      "epoch_time_s": 7.0
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7938,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.0
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.7917,
+      "test_acc": 99.691,
+      "epoch_time_s": 8.1
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.7912,
+      "test_acc": 99.707,
+      "epoch_time_s": 7.7
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.7899,
+      "test_acc": 99.675,
+      "epoch_time_s": 7.8
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.7901,
+      "test_acc": 99.675,
+      "epoch_time_s": 7.8
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.7888,
+      "test_acc": 99.642,
+      "epoch_time_s": 7.8
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.7881,
+      "test_acc": 99.642,
+      "epoch_time_s": 7.6
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.7879,
+      "test_acc": 99.675,
+      "epoch_time_s": 8.0
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.787,
+      "test_acc": 99.658,
+      "epoch_time_s": 7.8
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.7868,
+      "test_acc": 99.675,
+      "epoch_time_s": 8.8
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.7865,
+      "test_acc": 99.675,
+      "epoch_time_s": 7.2
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.7862,
+      "test_acc": 99.658,
+      "epoch_time_s": 7.7
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.786,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.1
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.7858,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.2
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.7858,
+      "test_acc": 99.675,
+      "epoch_time_s": 8.0
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.7857,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.0
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.7856,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.3
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.7855,
+      "test_acc": 99.691,
+      "epoch_time_s": 8.1
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.7854,
+      "test_acc": 99.691,
+      "epoch_time_s": 7.5
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.7854,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.9
+    }
+  ]
+}

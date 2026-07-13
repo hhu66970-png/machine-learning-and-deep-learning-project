@@ -1,0 +1,4 @@
+[RUN] method=lora dataset=svhn classes=10 trainable=302,602 (0.351%) lr=0.001 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=0.9933  test_acc=95.17  best=95.17  (357s)
+  epoch 2/2  loss=0.6797  test_acc=96.66  best=96.66  (312s)
+[DONE] lora/svhn  best_acc=96.66  trainable%=0.351  mem=7126MB  time=800s

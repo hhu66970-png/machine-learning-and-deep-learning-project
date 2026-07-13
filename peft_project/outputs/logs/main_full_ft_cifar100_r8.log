@@ -1,0 +1,8 @@
+[RUN] method=full_ft dataset=cifar100 classes=100 trainable=85,875,556 (100.000%) lr=0.0001 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=1.8615  test_acc=83.73  best=83.73  (261s)
+  epoch 2/6  loss=1.2114  test_acc=86.72  best=86.72  (224s)
+  epoch 3/6  loss=1.0435  (no eval)  (390s)
+  epoch 4/6  loss=0.9295  test_acc=90.71  best=90.71  (391s)
+  epoch 5/6  loss=0.8558  test_acc=91.88  best=91.88  (390s)
+  epoch 6/6  loss=0.8222  test_acc=92.41  best=92.41  (391s)
+[DONE] full_ft/cifar100  best_acc=92.41  trainable%=100.000  mem=9595MB  time=2159s

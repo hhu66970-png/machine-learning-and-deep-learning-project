@@ -1,0 +1,4 @@
+[RUN] method=full_ft dataset=svhn classes=10 trainable=85,806,346 (100.000%) lr=0.0001 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=0.8752  test_acc=96.48  best=96.48  (389s)
+  epoch 2/2  loss=0.6396  test_acc=97.34  best=97.34  (349s)
+[DONE] full_ft/svhn  best_acc=97.34  trainable%=100.000  mem=9593MB  time=853s

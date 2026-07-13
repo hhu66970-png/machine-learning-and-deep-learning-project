@@ -1,0 +1,4 @@
+[RUN] method=ssf dataset=svhn classes=10 trainable=40,714 (0.188%) lr=0.002 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=1.0722  test_acc=93.27  best=93.27  (147s)
+  epoch 2/2  loss=0.7712  test_acc=94.81  best=94.81  (105s)
+[DONE] ssf/svhn  best_acc=94.81  trainable%=0.188  mem=4375MB  time=326s

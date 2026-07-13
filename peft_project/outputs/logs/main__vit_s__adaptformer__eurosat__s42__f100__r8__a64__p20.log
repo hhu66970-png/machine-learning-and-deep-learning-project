@@ -1,0 +1,7 @@
+[RUN] method=adaptformer dataset=eurosat classes=10 trainable=599,062 (2.691%) lr=0.001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=0.9714  test_acc=98.19  best=98.19  (62s)
+  epoch 2/5  loss=0.5647  test_acc=98.44  best=98.44  (25s)
+  epoch 3/5  loss=0.5419  test_acc=98.61  best=98.61  (26s)
+  epoch 4/5  loss=0.5313  test_acc=98.65  best=98.65  (27s)
+  epoch 5/5  loss=0.5256  test_acc=98.76  best=98.76  (28s)
+[DONE] adaptformer/eurosat  best_acc=98.76  trainable%=2.691  mem=3384MB  time=223s

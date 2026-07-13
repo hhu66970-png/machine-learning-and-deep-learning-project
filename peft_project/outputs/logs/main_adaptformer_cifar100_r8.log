@@ -1,0 +1,8 @@
+[RUN] method=adaptformer dataset=cifar100 classes=100 trainable=1,266,544 (1.455%) lr=0.001 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=1.8132  test_acc=91.40  best=91.40  (219s)
+  epoch 2/6  loss=1.0475  test_acc=92.44  best=92.44  (177s)
+  epoch 3/6  loss=0.9784  (no eval)  (179s)
+  epoch 4/6  loss=0.9332  test_acc=93.42  best=93.42  (179s)
+  epoch 5/6  loss=0.8952  test_acc=93.54  best=93.54  (179s)
+  epoch 6/6  loss=0.8808  test_acc=93.59  best=93.59  (180s)
+[DONE] adaptformer/cifar100  best_acc=93.59  trainable%=1.455  mem=6830MB  time=1233s

@@ -1,0 +1,7 @@
+[RUN] method=lora_ssf dataset=eurosat classes=10 trainable=188,170 (0.861%) lr=0.001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=0.9397  test_acc=97.87  best=97.87  (75s)
+  epoch 2/5  loss=0.5716  test_acc=98.13  best=98.13  (37s)
+  epoch 3/5  loss=0.5480  test_acc=98.65  best=98.65  (39s)
+  epoch 4/5  loss=0.5348  test_acc=98.89  best=98.89  (40s)
+  epoch 5/5  loss=0.5283  test_acc=98.94  best=98.94  (41s)
+[DONE] lora_ssf/eurosat  best_acc=98.94  trainable%=0.861  mem=4839MB  time=293s

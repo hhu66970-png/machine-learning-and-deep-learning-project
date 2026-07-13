@@ -1,0 +1,8 @@
+[RUN] method=linear_probe dataset=cifar100 classes=100 trainable=76,900 (0.090%) lr=0.001 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=2.5070  test_acc=84.37  best=84.37  (79s)
+  epoch 2/6  loss=1.3518  test_acc=85.45  best=85.45  (32s)
+  epoch 3/6  loss=1.2235  (no eval)  (34s)
+  epoch 4/6  loss=1.1474  test_acc=86.76  best=86.76  (35s)
+  epoch 5/6  loss=1.0909  test_acc=87.46  best=87.46  (36s)
+  epoch 6/6  loss=1.0683  test_acc=87.41  best=87.46  (36s)
+[DONE] linear_probe/cifar100  best_acc=87.46  trainable%=0.090  mem=1752MB  time=367s

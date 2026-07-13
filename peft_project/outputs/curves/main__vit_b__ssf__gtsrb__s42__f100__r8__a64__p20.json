@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_b__ssf__gtsrb__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "ssf",
+    "dataset": "gtsrb",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 43,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.002,
+    "seed": 42,
+    "trainable_params": 106795,
+    "total_params": 85905451,
+    "pct_trainable": 0.1243,
+    "best_acc": 96.445,
+    "final_acc": 96.445,
+    "peak_mem_mb": 8899.5,
+    "train_time_s": 438.4,
+    "time_per_epoch_s": 146.1,
+    "throughput_img_s": 182.2,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3622,
+      "test_acc": 94.101,
+      "epoch_time_s": 135.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.748,
+      "test_acc": 96.374,
+      "epoch_time_s": 98.5
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7246,
+      "test_acc": 96.445,
+      "epoch_time_s": 104.2
+    }
+  ]
+}

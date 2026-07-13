@@ -1,0 +1,4 @@
+[RUN] method=linear_probe dataset=svhn classes=10 trainable=3,850 (0.018%) lr=0.001 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=1.7576  test_acc=55.90  best=55.90  (75s)
+  epoch 2/2  loss=1.5740  test_acc=57.69  best=57.69  (33s)
+[DONE] linear_probe/svhn  best_acc=57.69  trainable%=0.018  mem=914MB  time=171s

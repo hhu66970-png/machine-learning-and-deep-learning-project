@@ -1,0 +1,5 @@
+[RUN] method=full_ft dataset=gtsrb classes=43 trainable=85,831,723 (100.000%) lr=0.0001 epochs=3 amp=torch.bfloat16
+  epoch 1/3  loss=1.1295  test_acc=95.94  best=95.94  (146s)
+  epoch 2/3  loss=0.7112  test_acc=96.74  best=96.74  (111s)
+  epoch 3/3  loss=0.6890  test_acc=97.43  best=97.43  (117s)
+[DONE] full_ft/gtsrb  best_acc=97.43  trainable%=100.000  mem=9593MB  time=460s

@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "run_id": "interp__vit_b__bitfit__pets__s42__f100__r8__a64__p20",
+    "tag": "interp",
+    "method": "bitfit",
+    "dataset": "pets",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 37,
+    "epochs": 20,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 131365,
+    "total_params": 85827109,
+    "pct_trainable": 0.1531,
+    "best_acc": 94.467,
+    "final_acc": 94.331,
+    "peak_mem_mb": 6348.2,
+    "train_time_s": 441.4,
+    "time_per_epoch_s": 22.1,
+    "throughput_img_s": 162.4,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 3.5643,
+      "test_acc": 70.482,
+      "epoch_time_s": 54.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.105,
+      "test_acc": 91.387,
+      "epoch_time_s": 11.8
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8188,
+      "test_acc": 93.377,
+      "epoch_time_s": 12.5
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7704,
+      "test_acc": 93.813,
+      "epoch_time_s": 13.3
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.7494,
+      "test_acc": 93.813,
+      "epoch_time_s": 13.6
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7362,
+      "test_acc": 93.704,
+      "epoch_time_s": 13.6
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.7274,
+      "test_acc": 94.467,
+      "epoch_time_s": 14.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.7222,
+      "test_acc": 94.195,
+      "epoch_time_s": 14.1
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.7187,
+      "test_acc": 94.331,
+      "epoch_time_s": 14.2
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.7171,
+      "test_acc": 94.331,
+      "epoch_time_s": 13.8
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.7161,
+      "test_acc": 94.331,
+      "epoch_time_s": 14.2
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.7151,
+      "test_acc": 94.331,
+      "epoch_time_s": 14.2
+    }
+  ]
+}

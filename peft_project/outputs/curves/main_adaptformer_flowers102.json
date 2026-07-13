@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "tag": "main",
+    "method": "adaptformer",
+    "dataset": "flowers102",
+    "num_classes": 102,
+    "epochs": 30,
+    "batch_size": 64,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 1268082,
+    "total_params": 87066738,
+    "pct_trainable": 1.4564,
+    "best_acc": 99.707,
+    "final_acc": 99.707,
+    "peak_mem_mb": 3681.6,
+    "train_time_s": 517.6,
+    "time_per_epoch_s": 17.3,
+    "throughput_img_s": 115.0,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 5.0574,
+      "test_acc": 56.725,
+      "epoch_time_s": 26.2
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.3215,
+      "test_acc": 98.943,
+      "epoch_time_s": 5.9
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8931,
+      "test_acc": 98.65,
+      "epoch_time_s": 6.2
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8576,
+      "test_acc": 99.415,
+      "epoch_time_s": 5.9
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8275,
+      "test_acc": 99.61,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.8131,
+      "test_acc": 99.577,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.8034,
+      "test_acc": 99.642,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.8015,
+      "test_acc": 99.675,
+      "epoch_time_s": 6.5
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.7981,
+      "test_acc": 99.658,
+      "epoch_time_s": 6.3
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7959,
+      "test_acc": 99.675,
+      "epoch_time_s": 6.9
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7939,
+      "test_acc": 99.675,
+      "epoch_time_s": 6.4
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.7918,
+      "test_acc": 99.642,
+      "epoch_time_s": 6.2
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.7912,
+      "test_acc": 99.642,
+      "epoch_time_s": 7.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.7894,
+      "test_acc": 99.691,
+      "epoch_time_s": 5.9
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.7891,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.7889,
+      "test_acc": 99.675,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.7877,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.7874,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.7869,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.1
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.7865,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.7861,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.1
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.7859,
+      "test_acc": 99.691,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.7857,
+      "test_acc": 99.707,
+      "epoch_time_s": 5.9
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.7853,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.1
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.7851,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.7852,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.7851,
+      "test_acc": 99.707,
+      "epoch_time_s": 5.9
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.7849,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.785,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.7848,
+      "test_acc": 99.707,
+      "epoch_time_s": 6.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "run_id": "main__vit_s__linear_probe__svhn__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "linear_probe",
+    "dataset": "svhn",
+    "backbone": "vit_s",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 2,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 3850,
+    "total_params": 21669514,
+    "pct_trainable": 0.0178,
+    "best_acc": 57.691,
+    "final_acc": 57.691,
+    "peak_mem_mb": 914.3,
+    "train_time_s": 170.6,
+    "time_per_epoch_s": 85.3,
+    "throughput_img_s": 858.5,
+    "model": "vit_small_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7576,
+      "test_acc": 55.897,
+      "epoch_time_s": 74.9
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.574,
+      "test_acc": 57.691,
+      "epoch_time_s": 32.6
+    }
+  ]
+}

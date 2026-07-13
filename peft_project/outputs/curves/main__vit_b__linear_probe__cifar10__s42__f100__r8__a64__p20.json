@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_b__linear_probe__cifar10__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "linear_probe",
+    "dataset": "cifar10",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 7690,
+    "total_params": 85806346,
+    "pct_trainable": 0.009,
+    "best_acc": 97.64,
+    "final_acc": 97.64,
+    "peak_mem_mb": 1751.3,
+    "train_time_s": 311.2,
+    "time_per_epoch_s": 103.7,
+    "throughput_img_s": 481.3,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9157,
+      "test_acc": 97.35,
+      "epoch_time_s": 100.2
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.613,
+      "test_acc": 97.47,
+      "epoch_time_s": 62.1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5959,
+      "test_acc": 97.64,
+      "epoch_time_s": 67.4
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[RUN] method=bitfit dataset=eurosat classes=10 trainable=110,602 (0.129%) lr=0.001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=1.0110  test_acc=96.83  best=96.83  (113s)
+  epoch 2/5  loss=0.5937  test_acc=98.02  best=98.02  (73s)
+  epoch 3/5  loss=0.5691  test_acc=98.20  best=98.20  (78s)
+  epoch 4/5  loss=0.5563  test_acc=98.56  best=98.56  (75s)
+  epoch 5/5  loss=0.5487  test_acc=98.59  best=98.59  (78s)
+[DONE] bitfit/eurosat  best_acc=98.59  trainable%=0.129  mem=6348MB  time=501s

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_s__bitfit__gtsrb__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "bitfit",
+    "dataset": "gtsrb",
+    "backbone": "vit_s",
+    "train_fraction": 1.0,
+    "num_classes": 43,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 68011,
+    "total_params": 21682219,
+    "pct_trainable": 0.3137,
+    "best_acc": 94.711,
+    "final_acc": 94.711,
+    "peak_mem_mb": 3123.5,
+    "train_time_s": 179.9,
+    "time_per_epoch_s": 60.0,
+    "throughput_img_s": 444.1,
+    "model": "vit_small_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5836,
+      "test_acc": 92.011,
+      "epoch_time_s": 64.1
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8004,
+      "test_acc": 94.418,
+      "epoch_time_s": 29.6
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7692,
+      "test_acc": 94.711,
+      "epoch_time_s": 31.0
+    }
+  ]
+}

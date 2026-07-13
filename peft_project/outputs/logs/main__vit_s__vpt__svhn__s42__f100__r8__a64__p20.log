@@ -1,0 +1,4 @@
+[RUN] method=vpt dataset=svhn classes=10 trainable=11,530 (0.053%) lr=0.005 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=1.2963  test_acc=85.20  best=85.20  (127s)
+  epoch 2/2  loss=0.9898  test_acc=88.61  best=88.61  (87s)
+[DONE] vpt/svhn  best_acc=88.61  trainable%=0.053  mem=3394MB  time=282s

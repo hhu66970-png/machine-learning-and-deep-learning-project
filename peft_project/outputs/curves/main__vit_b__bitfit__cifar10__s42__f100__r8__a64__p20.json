@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_b__bitfit__cifar10__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "bitfit",
+    "dataset": "cifar10",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 110602,
+    "total_params": 85806346,
+    "pct_trainable": 0.1289,
+    "best_acc": 98.98,
+    "final_acc": 98.98,
+    "peak_mem_mb": 6348.1,
+    "train_time_s": 655.4,
+    "time_per_epoch_s": 218.5,
+    "throughput_img_s": 228.5,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7898,
+      "test_acc": 98.7,
+      "epoch_time_s": 201.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5429,
+      "test_acc": 98.93,
+      "epoch_time_s": 179.9
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5313,
+      "test_acc": 98.98,
+      "epoch_time_s": 188.4
+    }
+  ]
+}

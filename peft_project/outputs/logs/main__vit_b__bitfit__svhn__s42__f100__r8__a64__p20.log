@@ -1,0 +1,4 @@
+[RUN] method=bitfit dataset=svhn classes=10 trainable=110,602 (0.129%) lr=0.001 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=1.1075  test_acc=94.07  best=94.07  (305s)
+  epoch 2/2  loss=0.7823  test_acc=95.02  best=95.02  (263s)
+[DONE] bitfit/svhn  best_acc=95.02  trainable%=0.129  mem=6348MB  time=682s

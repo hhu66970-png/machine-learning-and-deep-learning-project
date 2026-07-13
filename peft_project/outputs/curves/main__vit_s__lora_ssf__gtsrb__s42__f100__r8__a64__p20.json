@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_s__lora_ssf__gtsrb__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "lora_ssf",
+    "dataset": "gtsrb",
+    "backbone": "vit_s",
+    "train_fraction": 1.0,
+    "num_classes": 43,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 200875,
+    "total_params": 21866539,
+    "pct_trainable": 0.9186,
+    "best_acc": 96.002,
+    "final_acc": 96.002,
+    "peak_mem_mb": 4839.3,
+    "train_time_s": 245.6,
+    "time_per_epoch_s": 81.9,
+    "throughput_img_s": 325.2,
+    "model": "vit_small_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4657,
+      "test_acc": 93.975,
+      "epoch_time_s": 83.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.75,
+      "test_acc": 95.645,
+      "epoch_time_s": 46.7
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7231,
+      "test_acc": 96.002,
+      "epoch_time_s": 49.2
+    }
+  ]
+}

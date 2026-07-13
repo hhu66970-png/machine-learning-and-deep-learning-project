@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "run_id": "main__vit_b__vpt__svhn__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "vpt",
+    "dataset": "svhn",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 2,
+    "batch_size": 128,
+    "lr": 0.005,
+    "seed": 42,
+    "trainable_params": 23050,
+    "total_params": 85821706,
+    "pct_trainable": 0.0269,
+    "best_acc": 90.335,
+    "final_acc": 90.335,
+    "peak_mem_mb": 6873.6,
+    "train_time_s": 708.8,
+    "time_per_epoch_s": 354.4,
+    "throughput_img_s": 206.6,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3124,
+      "test_acc": 86.678,
+      "epoch_time_s": 312.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9557,
+      "test_acc": 90.335,
+      "epoch_time_s": 274.3
+    }
+  ]
+}

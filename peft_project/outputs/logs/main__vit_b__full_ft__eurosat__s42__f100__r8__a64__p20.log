@@ -1,0 +1,7 @@
+[RUN] method=full_ft dataset=eurosat classes=10 trainable=85,806,346 (100.000%) lr=0.0001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=0.8057  test_acc=96.96  best=96.96  (124s)
+  epoch 2/5  loss=0.5870  test_acc=97.93  best=97.93  (88s)
+  epoch 3/5  loss=0.5543  test_acc=98.35  best=98.35  (94s)
+  epoch 4/5  loss=0.5269  test_acc=98.69  best=98.69  (92s)
+  epoch 5/5  loss=0.5111  test_acc=98.87  best=98.87  (95s)
+[DONE] full_ft/eurosat  best_acc=98.87  trainable%=100.000  mem=9593MB  time=570s

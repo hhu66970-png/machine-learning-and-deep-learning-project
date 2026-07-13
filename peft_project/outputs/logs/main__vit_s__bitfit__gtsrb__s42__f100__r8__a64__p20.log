@@ -1,0 +1,5 @@
+[RUN] method=bitfit dataset=gtsrb classes=43 trainable=68,011 (0.314%) lr=0.001 epochs=3 amp=torch.bfloat16
+  epoch 1/3  loss=1.5836  test_acc=92.01  best=92.01  (64s)
+  epoch 2/3  loss=0.8004  test_acc=94.42  best=94.42  (30s)
+  epoch 3/3  loss=0.7692  test_acc=94.71  best=94.71  (31s)
+[DONE] bitfit/gtsrb  best_acc=94.71  trainable%=0.314  mem=3124MB  time=180s

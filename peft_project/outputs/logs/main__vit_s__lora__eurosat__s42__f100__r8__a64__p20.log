@@ -1,0 +1,7 @@
+[RUN] method=lora dataset=eurosat classes=10 trainable=151,306 (0.694%) lr=0.001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=0.9802  test_acc=97.91  best=97.91  (66s)
+  epoch 2/5  loss=0.5716  test_acc=98.59  best=98.59  (29s)
+  epoch 3/5  loss=0.5478  test_acc=98.56  best=98.59  (31s)
+  epoch 4/5  loss=0.5363  test_acc=98.61  best=98.61  (31s)
+  epoch 5/5  loss=0.5308  test_acc=98.65  best=98.65  (32s)
+[DONE] lora/eurosat  best_acc=98.65  trainable%=0.694  mem=3507MB  time=246s

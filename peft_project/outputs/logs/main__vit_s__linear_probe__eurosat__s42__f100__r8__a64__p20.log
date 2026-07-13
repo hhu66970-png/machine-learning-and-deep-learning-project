@@ -1,0 +1,7 @@
+[RUN] method=linear_probe dataset=eurosat classes=10 trainable=3,850 (0.018%) lr=0.001 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=1.1255  test_acc=94.48  best=94.48  (58s)
+  epoch 2/5  loss=0.6974  test_acc=95.26  best=95.26  (10s)
+  epoch 3/5  loss=0.6784  test_acc=95.50  best=95.50  (10s)
+  epoch 4/5  loss=0.6690  test_acc=95.70  best=95.70  (10s)
+  epoch 5/5  loss=0.6667  test_acc=95.70  best=95.70  (10s)
+[DONE] linear_probe/eurosat  best_acc=95.70  trainable%=0.018  mem=914MB  time=154s

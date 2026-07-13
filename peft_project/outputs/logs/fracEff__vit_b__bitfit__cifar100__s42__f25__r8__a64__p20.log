@@ -1,0 +1,8 @@
+[RUN] method=bitfit dataset=cifar100 classes=100 trainable=179,812 (0.209%) lr=0.001 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=2.6598  test_acc=88.85  best=88.85  (87s)
+  epoch 2/6  loss=1.1297  test_acc=90.71  best=90.71  (42s)
+  epoch 3/6  loss=1.0268  (no eval)  (46s)
+  epoch 4/6  loss=0.9736  test_acc=91.67  best=91.67  (47s)
+  epoch 5/6  loss=0.9352  test_acc=91.95  best=91.95  (47s)
+  epoch 6/6  loss=0.9171  test_acc=91.99  best=91.99  (48s)
+[DONE] bitfit/cifar100  best_acc=91.99  trainable%=0.209  mem=6349MB  time=435s

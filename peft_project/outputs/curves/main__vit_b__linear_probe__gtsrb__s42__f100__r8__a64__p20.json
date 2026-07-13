@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_b__linear_probe__gtsrb__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "linear_probe",
+    "dataset": "gtsrb",
+    "backbone": "vit_b",
+    "train_fraction": 1.0,
+    "num_classes": 43,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 33067,
+    "total_params": 85831723,
+    "pct_trainable": 0.0385,
+    "best_acc": 77.72,
+    "final_acc": 77.72,
+    "peak_mem_mb": 1751.7,
+    "train_time_s": 229.9,
+    "time_per_epoch_s": 76.6,
+    "throughput_img_s": 347.4,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8782,
+      "test_acc": 74.188,
+      "epoch_time_s": 73.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1064,
+      "test_acc": 76.421,
+      "epoch_time_s": 32.1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0311,
+      "test_acc": 77.72,
+      "epoch_time_s": 34.7
+    }
+  ]
+}

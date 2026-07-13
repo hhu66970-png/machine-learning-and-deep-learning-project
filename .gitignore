@@ -1,0 +1,22 @@
+# Downloaded datasets (large and reproducible)
+peft_project/data/
+
+# Model checkpoints and generated binary artifacts
+peft_project/outputs/ckpts/
+*.pt
+*.pth
+*.ckpt
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

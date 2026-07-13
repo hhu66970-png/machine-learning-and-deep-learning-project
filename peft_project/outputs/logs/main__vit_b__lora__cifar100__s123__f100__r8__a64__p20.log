@@ -1,0 +1,8 @@
+[RUN] method=lora dataset=cifar100 classes=100 trainable=371,812 (0.431%) lr=0.001 epochs=6 amp=torch.bfloat16
+  epoch 1/6  loss=1.8409  test_acc=91.27  best=91.27  (433s)
+  epoch 2/6  loss=1.0552  test_acc=92.56  best=92.56  (365s)
+  epoch 3/6  loss=0.9931  (no eval)  (365s)
+  epoch 4/6  loss=0.9435  test_acc=93.36  best=93.36  (365s)
+  epoch 5/6  loss=0.9132  test_acc=93.44  best=93.44  (365s)
+  epoch 6/6  loss=0.8990  test_acc=93.59  best=93.59  (365s)
+[DONE] lora/cifar100  best_acc=93.59  trainable%=0.431  mem=7127MB  time=2476s

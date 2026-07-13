@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "run_id": "main__vit_s__full_ft__cifar10__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "full_ft",
+    "dataset": "cifar10",
+    "backbone": "vit_s",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 3,
+    "batch_size": 128,
+    "lr": 0.0001,
+    "seed": 42,
+    "trainable_params": 21669514,
+    "total_params": 21669514,
+    "pct_trainable": 100.0,
+    "best_acc": 98.34,
+    "final_acc": 98.34,
+    "peak_mem_mb": 4605.8,
+    "train_time_s": 311.7,
+    "time_per_epoch_s": 103.9,
+    "throughput_img_s": 480.4,
+    "model": "vit_small_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7514,
+      "test_acc": 97.25,
+      "epoch_time_s": 111.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5623,
+      "test_acc": 98.07,
+      "epoch_time_s": 70.3
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5255,
+      "test_acc": 98.34,
+      "epoch_time_s": 75.2
+    }
+  ]
+}

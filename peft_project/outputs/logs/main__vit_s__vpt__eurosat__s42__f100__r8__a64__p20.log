@@ -1,0 +1,7 @@
+[RUN] method=vpt dataset=eurosat classes=10 trainable=11,530 (0.053%) lr=0.005 epochs=5 amp=torch.bfloat16
+  epoch 1/5  loss=0.8984  test_acc=94.87  best=94.87  (61s)
+  epoch 2/5  loss=0.6637  test_acc=96.89  best=96.89  (24s)
+  epoch 3/5  loss=0.6388  test_acc=96.81  best=96.89  (25s)
+  epoch 4/5  loss=0.6213  test_acc=97.20  best=97.20  (26s)
+  epoch 5/5  loss=0.6113  test_acc=97.31  best=97.31  (27s)
+[DONE] vpt/eurosat  best_acc=97.31  trainable%=0.053  mem=3394MB  time=218s

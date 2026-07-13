@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "run_id": "fracEff__vit_b__bitfit__cifar100__s42__f5__r8__a64__p20",
+    "tag": "fracEff",
+    "method": "bitfit",
+    "dataset": "cifar100",
+    "backbone": "vit_b",
+    "train_fraction": 0.05,
+    "num_classes": 100,
+    "epochs": 6,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 179812,
+    "total_params": 85875556,
+    "pct_trainable": 0.2094,
+    "best_acc": 88.39,
+    "final_acc": 88.39,
+    "peak_mem_mb": 6349.2,
+    "train_time_s": 209.1,
+    "time_per_epoch_s": 34.9,
+    "throughput_img_s": 69.8,
+    "model": "vit_base_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 4.5498,
+      "test_acc": 54.53,
+      "epoch_time_s": 54.9
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6429,
+      "test_acc": 84.41,
+      "epoch_time_s": 8.1
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.0435,
+      "test_acc": 88.12,
+      "epoch_time_s": 8.7
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.9883,
+      "test_acc": 88.21,
+      "epoch_time_s": 9.1
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.9678,
+      "test_acc": 88.39,
+      "epoch_time_s": 9.0
+    }
+  ]
+}

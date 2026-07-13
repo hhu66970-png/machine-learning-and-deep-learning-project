@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "run_id": "main__vit_s__lora__eurosat__s42__f100__r8__a64__p20",
+    "tag": "main",
+    "method": "lora",
+    "dataset": "eurosat",
+    "backbone": "vit_s",
+    "train_fraction": 1.0,
+    "num_classes": 10,
+    "epochs": 5,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "trainable_params": 151306,
+    "total_params": 21816970,
+    "pct_trainable": 0.6935,
+    "best_acc": 98.648,
+    "final_acc": 98.648,
+    "peak_mem_mb": 3507.4,
+    "train_time_s": 245.7,
+    "time_per_epoch_s": 49.1,
+    "throughput_img_s": 437.6,
+    "model": "vit_small_patch16_224.augreg_in21k",
+    "lora_r": 8,
+    "adapter_dim": 64,
+    "vpt_prompts": 20
+  },
+  "curve": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9802,
+      "test_acc": 97.907,
+      "epoch_time_s": 65.7
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5716,
+      "test_acc": 98.593,
+      "epoch_time_s": 28.6
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5478,
+      "test_acc": 98.556,
+      "epoch_time_s": 30.5
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5363,
+      "test_acc": 98.611,
+      "epoch_time_s": 31.4
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5308,
+      "test_acc": 98.648,
+      "epoch_time_s": 32.3
+    }
+  ]
+}

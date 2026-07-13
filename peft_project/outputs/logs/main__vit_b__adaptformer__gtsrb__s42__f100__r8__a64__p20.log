@@ -1,0 +1,5 @@
+[RUN] method=adaptformer dataset=gtsrb classes=43 trainable=1,222,711 (1.405%) lr=0.001 epochs=3 amp=torch.bfloat16
+  epoch 1/3  loss=1.3790  test_acc=95.66  best=95.66  (120s)
+  epoch 2/3  loss=0.7158  test_acc=97.24  best=97.24  (84s)
+  epoch 3/3  loss=0.6989  test_acc=97.27  best=97.27  (89s)
+[DONE] adaptformer/gtsrb  best_acc=97.27  trainable%=1.405  mem=6827MB  time=390s

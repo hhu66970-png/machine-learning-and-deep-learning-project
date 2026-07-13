@@ -1,0 +1,4 @@
+[RUN] method=adaptformer dataset=svhn classes=10 trainable=599,062 (2.691%) lr=0.001 epochs=2 amp=torch.bfloat16
+  epoch 1/2  loss=1.0424  test_acc=94.81  best=94.81  (129s)
+  epoch 2/2  loss=0.6979  test_acc=95.91  best=95.91  (88s)
+[DONE] adaptformer/svhn  best_acc=95.91  trainable%=2.691  mem=3384MB  time=286s
